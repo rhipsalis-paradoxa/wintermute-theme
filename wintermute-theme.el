@@ -51,7 +51,7 @@
    'wintermute
         `(default ((,class (:background ,bg1 :foreground ,fg1))))
         `(font-lock-builtin-face ((,class (:foreground ,builtin))))
-        `(font-lock-comment-face ((,class (:foreground ,comment))))
+        `(font-lock-comment-face ((,class (:foreground ,comment :italic t))))
 	`(font-lock-negation-char-face ((,class (:foreground ,const))))
 	`(font-lock-reference-face ((,class (:foreground ,const))))
 	`(font-lock-constant-face ((,class (:foreground ,const))))
